@@ -12,5 +12,5 @@ server <- function(input,output)
   
   output$hist <- renderPlot({hist(rnorm(input$num))})
 }
-
+#this is an edit
 shinyApp(ui=ui, server = server)
